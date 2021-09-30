@@ -1,0 +1,9 @@
+Id;Turma;Sexo;Idade;Altura;Peso;Horas_estudo;ENEM_MAT;Notas_EST
+1;B;Feminino;18;1,75;68;Mais de 5h;781,65;8,8
+17;B;Feminino;20;1,66;78;Mais de 1h e até 3h;504,14;4,91
+14;A;Feminino;18;1,84;85;Mais de 3h e até 5h;600,11;7
+12;B;Feminino;19;1,71;69;Até 1h;216,82;1,74
+5;B;Feminino;19;1,88;65;Mais de 1h e até 3h;597,09;5,92
+6;B;Feminino;18;1,63;66;Mais de 3h e até 5h;836,34;8,27
+11;B;Feminino;23;1,65;70;Mais de 3h e até 5h;717,23;7,04
+8;B;Feminino;20;1,39;75;Mais de 3h e até 5h;629,57;6,32

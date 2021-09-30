@@ -1,0 +1,18 @@
+Id;Turma;Sexo;Idade;Altura;Peso;Horas_estudo;ENEM_MAT;Notas_EST;;;;Notas Enem  ;Notas EST;Altura 
+1;B;Feminino;19;1,71;69;Até 1h;216,82;1,74;;;Media ;612,7923529;6,204117647;1,685882353
+2;B;Masculino;20;1,81;81;Até 1h;481,69;3,02;;;Mediana ;;6,32;
+3;A;Masculino;24;1,47;58;Até 1h;484,19;4,27;;;Desvio Padrao;168,6581721;2,086654196;0,145475892
+4;B;Masculino;19;1,91;81;Até 1h;485,23;4,35;;;Quartil 1;;4,91;
+5;B;Feminino;20;1,66;78;Mais de 1h e até 3h;486,18;4,91;;;Quartil 3;;7,04;
+6;B;Masculino;21;1,62;69;Mais de 1h e até 3h;504,14;5,68;;;Distancia interquartilica ;;2,13;
+7;A;Feminino;19;1,88;65;Mais de 1h e até 3h;521,51;5,92;;;Coeficiente de variaçao;27,52289112;33,63337569;8,6290655
+8;B;Masculino;20;1,74;73;Mais de 1h e até 3h;597,09;6,31;;;;;;
+9;A;Feminino;20;1,39;75;Mais de 3h e até 5h;600,11;6,32;;;;;;
+10;B;Masculino;21;1,51;68;Mais de 3h e até 5h;629,57;6,72;;;;;;
+11;A;Masculino;20;1,81;70;Mais de 3h e até 5h;696;6,91;;;4,25;;;
+12;A;Feminino;18;1,84;85;Mais de 3h e até 5h;717,23;7;;;;;;
+13;B;Feminino;23;1,65;70;Mais de 3h e até 5h;726,05;7,04;;;12,75;;;
+14;B;Feminino;18;1,63;66;Mais de 3h e até 5h;753,67;8,27;;;;;;
+15;A;Masculino;19;1,57;67;Mais de 5h;781,65;8,64;;;;;;
+16;B;Feminino;18;1,75;68;Mais de 5h;836,34;8,8;;;;;;
+17;B;Masculino;16;1,71;79;Mais de 5h;900;9,57;;;;;;

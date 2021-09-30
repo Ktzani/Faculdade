@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "prioridade.h": "c",
+        "stdio.h": "c"
+    }
+}

@@ -1,0 +1,4 @@
+4004 Gabriel                        C
+4003 Caio                           A
+4010 Pedro                          C
+4200 Lucas                          R

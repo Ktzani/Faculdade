@@ -1,0 +1,44 @@
+Exercício 01:
+------------
+Considere um arquivo texto "alunos.txt" onde cada linha contém os seguintes dados de um determinado aluno de uma turma qualquer:
+* matrícula (posições 1 a 4 do arquivo);
+* nome (posições 6 a 35 do arquivo);
+* nota 1 (posições 37 a 40 do arquivo);
+* nota 2 (posições 42 a 45 do arquivo);
+* nota 3 (posições 47 a 50 do arquivo);
+* faltas (posições 52 e 53 do arquivo).
+Faça um programa em C que, a partir do arquivo texto "alunos.txt", gere o arquivo "conceitos.txt" que contenha, em cada linha, os seguintes dados referentes a um aluno da turma:
+* matrícula (posições 1 a 4 do arquivo);
+* nome (posições 6 a 35 do arquivo);
+* conceito (posição 37 do arquivo).
+O valor do conceito de um aluno é estabelecido de acordo com a média de suas notas (soma das notas dividida por 3) e seu número de faltas, seguindo as seguintes regras:
+* Número de faltas maior que 18 => Conceito F;
+* Número de faltas menor ou igual a 18 e nota média abaixo de 6.0 => Conceito R;
+* Número de faltas menor ou igual a 18 e nota média entre [6.0, 7.5[ => Conceito C;
+* Número de faltas menor ou igual a 18 e nota média entre [7.5, 9.0[ => Conceito B;
+* Número de faltas menor ou igual a 18 e nota média entre [9.0, 10.0] => Conceito A.
+
+
+Exercício 02:
+------------
+Faça um programa em C que, a partir do arquivo texto "alunos.txt" descrito no exercício 01, gere o arquivo binário "alunos.bin" equivalente. Desta forma, cada aluno do arquivo texto (cada linha) dará origem a um "registro aluno", formado pelos campos matrícula, nome, nota1, nota2, nota3 e faltas, no arquivo binário.
+
+
+Exercício 03:
+------------
+Faça um programa em C que, a partir do arquivo binário "alunos.bin" gerado no exercício 02, gere o arquivo texto "conceitos.txt" descrito no exercício 01.
+
+
+Exercício 04:
+------------
+Faça um programa em C que, a partir do arquivo binário "alunos.bin" gerado no exercício 02, exclua fisicamente um aluno do arquivo uma vez fornecendo a matrícula do mesmo.
+A exclusão física consiste em realmente remover, do arquivo binário em questão, o registro referente ao aluno desejado, caso o mesmo encontre-se no arquivo.
+
+
+Exercício 05:
+------------
+Faça um programa em C que, a partir do arquivo binário "alunos.bin" gerado no exercício 02, exclua logicamente um aluno do arquivo uma vez fornecendo a matrícula do mesmo.
+A exclusão lógica consiste em marcar o registro referente ao aluno desejado, caso o mesmo encontre-se no arquivo binário, como sendo um registro excluído. Desta forma, o registro em questão não é removido fisicamente do arquivo.
+
+
+

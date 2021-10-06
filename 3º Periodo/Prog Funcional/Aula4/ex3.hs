@@ -1,4 +1,4 @@
-module OR where
+module Index where
 
 main :: IO ()
 

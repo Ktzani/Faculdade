@@ -774,11 +774,22 @@ Caso `x` não pertença a lista, o valor -1 deve ser retornado.
 \begin{code}
 indexOf :: [Int] -> Int -> Int -> a
 
+indexOf [] _ _ = -1
 indexOf (x:xs) y n
-    | [] = -1
     | x == y = n
     | otherwise = indexOf(xs y n + 1)
-\end{code}
+\end{code}  
+
+\begin{code}
+indexOf :: [Int] -> Int -> a
+
+indexOf xs y = ind xs y 0
+    where
+        ind [] _ _ = -1
+        ind (z:zs) y ac 
+            | x == y = ac
+            | otherwise = ind zs y (ac + 1)
+\end{code}  
 
 Exercício
 =========
@@ -839,10 +850,10 @@ Exercício
 retorna a sua quantidade de números positivos.
 
 \begin{code}
-countPos :: [Int] -> Int -> Int
-countPos [] n = n
-countPos (x : xs) n
-     | x > 0 = countPos xs n + 1
-     | otherwise = countPos xs n 
+countPos :: [Int] -> Int
+countPos [] = 0
+countPos (x : xs)
+     | x > 0     = 1 + countPos xs 
+     | otherwise = countPos xs  
 \end{code}
 

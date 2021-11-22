@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "contimpri.h": "c",
+        "time.h": "c",
+        "arvoreb.h": "c",
+        "arvorebestrela.h": "c",
+        "stdlib.h": "c",
+        "string.h": "c"
+    }
+}

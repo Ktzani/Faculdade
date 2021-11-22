@@ -402,3 +402,12 @@ Sua implementação deve atender os seguintes casos de teste.
 >                               @?= Horizontal [ Single (App "test" 1 1)
 >                                              , Vertical [Single (App "foo" 1 1)]]
 >                   ]
+
+
+>  :: String -> [Instr]
+>  [] = []
+>  (x:xs)
+>   | x == 'F' = Forward :  xs
+>   | x == 'L' = ToLeft :  xs
+>   | x == 'R' = ToRight :  xs
+>   | otherwise = Print :
